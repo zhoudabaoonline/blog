@@ -15,6 +15,10 @@ const (
 
 	// MemStoreKey defines the in-memory store key
 	MemStoreKey = "mem_blog"
+
+	// 定义了两个键值对数据库的键值前缀
+	PostKey      = "Post-value-"
+	PostCountKey = "Post-count-"
 )
 
 func KeyPrefix(p string) []byte {
